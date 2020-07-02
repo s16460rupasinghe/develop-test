@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+ 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>New User Login</title>
+ 	<link rel="stylesheet" type="text/css" href="new_user_login.css">
+ </head>
+
+ <body class="page-background-image">
+
+ 	<!-- Header of the Page -->
+ 	<header>
+		<ul>
+			<a href="#" class="logo">NCD</a>
+			<li><h2 class="page-header-welcome-note">Welcome to NCD Digital Recording System!</h2></li>
+		</ul>
+	</header>
+
+	<!-- Content of the Page -->
+	<section>
+
+		<h2 class="login-instructions-note">Please Fill the Following Fields!</h2>
+		<br>
+
+		<!-- Login Form for New Users -->
+		<div class="new-user-login-form-background">
+			<form action="insert_data.php" method="POST">
+				<br><br>
+				<table align="center" class="new-user-login-form-content">
+					<tr>
+	 					<td>Name:</td>
+	 					<td><input type="text" placeholder="Userame" name="username" required></td>
+ 					</tr>
+ 					<tr><td></td></tr>
+ 					<tr><td></td></tr>
+ 					<tr>
+ 						<td>NIC:</td>
+	 					<td><input type="text" placeholder="NIC" name="nic" required></td>
+ 					</tr>
+ 					<tr><td></td></tr>
+ 					<tr><td></td></tr>
+	 				<tr>
+	 					<td>Date of Birth:</td>
+	 					<td><input type="date" placeholder="Date of Birth" name="dob" required></td>
+	 				</tr>
+	 				<tr><td></td></tr>
+ 					<tr><td></td></tr>
+	 				<tr>
+	 					<td>Gender:</td>
+	 					<td>
+	 						<input [type="radio"] {float: left; width: 50px; margin-right: 10px;} type="radio" name="gender" value="M" required>Male
+	 						<input type="radio" name="gender" value="F" required>Female
+	 					</td>
+	 				</tr>
+	 				<tr><td></td></tr>
+ 					<tr><td></td></tr>
+	 				<tr>
+	 					<td>Address:</td>
+	 					<td>
+	 						<input type="text" placeholder="Residance No" name="residance_no" required><br>
+	 						<input type="text" placeholder="Street/Lane" name="street_lane" required><br>
+	 						<input type="text" placeholder="Division" name="division" required><br>
+	 						<input type="text" placeholder="District" name="district" required><br>
+	 					</td>
+	 				</tr>
+	 				<tr><td></td></tr>
+ 					<tr><td></td></tr>
+	 				<tr>
+	 					<td>Contact No:</td>
+	 					<td>
+	 						<select class="phone-code-bar-size-options" name="phoneCode" required>
+	 							<option selected hidden>- Select Code -</option>
+	 							<option value="+9471">+9471</option>
+	 							<option value="+9472">+9472</option>
+	 							<option value="+9475">+9475</option>
+	 							<option value="+9476">+9476</option>
+	 							<option value="+9477">+9477</option>
+	 							<option value="+9478">+9478</option>
+	 						</select>
+	 						<input type="phone" placeholder="xxxxxxx" name="phone" required>
+	 					</td>
+	 				</tr>
+	 				<tr><td></td></tr>
+ 					<tr><td></td></tr>
+	 				<tr>
+	 					<td>Email:</td>
+	 					<td><input type="email" placeholder="Email" name="email" required></td>
+	 				</tr>
+	 				<tr><td></td></tr>
+ 					<tr><td></td></tr>
+	 				<tr>
+	 					<td>Height:</td>
+	 					<td><input type="height" placeholder="Height in cm" name="height" required></td>
+	 				</tr>
+	 				<tr><td></td></tr>
+ 					<tr><td></td></tr>
+	 				<tr>
+	 					<td>Weight:</td>
+	 					<td><input type="weight" placeholder="Weight in kg" name="weight" required></td>
+	 				</tr>
+	 				<tr><td></td></tr>
+ 					<tr><td></td></tr>
+	 				<tr>
+	 					<td>Other Medical Conditions:</td>
+	 					<td><input type="text" placeholder="surgeries previously had, allergies, diabetes etc." name="other_medical_conditions" required></td>
+	 				</tr>
+				</table>
+				<br><br>
+				<a href="patients.html"><button class="new-user-sign-in-button" style="vertical-align:middle"><span>Submit</span></button></a>
+				<br><br><br>
+			</form>
+		</div>
+		<br><br><br>
+		<a href="user_login_options.html"><button class="back-to-user-login-options-button" style="vertical-align:middle"><span>Back</span></button></a>
+	</section>
+
+ </body>
+ </html>

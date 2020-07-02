@@ -1,0 +1,288 @@
+/* =================================================================================================================================== */
+
+/* ---------------------------------------------------- COMMON STYLES OF THE PAGE ---------------------------------------------------- */
+
+/* Styles of the Page Header */
+header
+{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	padding: 10px 10px 10px 10px;
+	display: fixed;
+	justify-content: space-between;
+	align-items: center;
+	background: #111;
+	opacity: 75%;
+	z-index: 1000;
+}
+
+header ul
+{
+	color: #fff;
+	position: relative;
+	display: flex;
+}
+
+header ul li
+{
+	color: #fff;
+	position: relative;
+	list-style: none;
+}
+
+header ul li a
+{
+	font-size: 20px;
+	position: relative;
+	padding: 10px 20px 10px 20px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+header ul li a.active,
+
+header ul li a:hover
+{
+	background: #205aff;
+}
+
+
+
+
+
+/* Styles of NCD Logo */
+header
+.logo {
+	color: #fff;
+	font-size: 50px;
+	text-decoration: bold;
+	letter-spacing: 2px;
+	font-weight: 1000px;
+	padding: 0px 650px 0px 0px;
+}
+
+
+
+
+
+/* Styles of Page Header Welcome Note */
+header
+.page-header-welcome-note {
+	font-size: 25px;
+}
+
+
+
+
+
+/* Styles of Page Background Image */
+.page-background-image
+{
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: fixed;
+}
+
+
+
+
+
+/* Styles of Sections */
+section
+{
+	position: relative;
+	display: relative;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 30vh;
+	padding: 120px 80px 80px 80px;
+}
+
+
+
+/* ----------------------------------------------------- SPECIFIC STYLES OF THE PAGE ------------------------------------------------- */
+
+/* Styles of Login Instruction Note */
+section
+.login-instructions-note {
+	font-size: 40px;
+	text-align: center;
+}
+
+
+
+
+
+/* Styles of New User Login Form Background */
+.new-user-login-form-background
+{
+	background: rgb(100, 110, 120, 60%);
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+
+
+
+
+/* Styles of Input */
+input
+{
+	font-size: 20px;
+}
+
+input:hover
+{
+	background-color: lightblue;
+}
+
+
+
+
+
+/* Styles of New User Login Form Content */
+.new-user-login-form-content {
+	font-size: 24px;
+	font-style: bold;
+}
+
+
+
+
+
+/* Styles of phoneCode Bar */
+.phone-code-bar-size-options
+{
+    width: 115px;
+    height: 30px;
+}
+
+
+
+
+
+/* Styles of Back to User Login Options Button */
+.back-to-user-login-options-button
+{
+	width: 160px;
+	height: 40px;
+	background-color: #f4511e;
+	margin-left: 500px;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	font-family: serif;
+	font-size: 25px;
+	font-style: bold;
+	font-weight: 100%;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.2);
+	opacity: 0.8;
+}
+
+.back-to-user-login-options-button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.back-to-user-login-options-button span:after {
+	content: '\00AB';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: -20px;
+	transition: 0.5s;
+}
+
+.back-to-user-login-options-button:hover{
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,50%), 0 17px 50px 0 rgba(0,0,0,50%);
+	opacity: 1;
+}
+
+.back-to-user-login-options-button:hover span{
+	padding-left: 20px;
+}
+
+.back-to-user-login-options-button:hover span:after {
+	opacity: 1;
+	left: 0;
+}
+
+.back-to-user-login-options-button:active {
+	background-color: red;
+	transform: translateY(2px);
+	transform: translateX(2px);
+}
+
+
+
+
+
+/* Styles of New User Sign In Button */
+.new-user-sign-in-button
+{
+	width: 160px;
+	height: 40px;
+	background-color: rgb(96, 240, 34, 90%);
+	margin-left: 350px;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	font-family: serif;
+	font-size: 25px;
+	font-style: bold;
+	font-weight: 100%;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.2);
+	opacity: 0.8;
+}
+
+.new-user-sign-in-button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.new-user-sign-in-button span:after {
+	content: '\00BB';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.new-user-sign-in-button:hover{
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,50%), 0 17px 50px 0 rgba(0,0,0,50%);
+	opacity: 1;
+}
+
+.new-user-sign-in-button:hover span{
+	padding-right: 20px;
+}
+
+.new-user-sign-in-button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.new-user-sign-in-button:active {
+	background-color: red;
+	transform: translateY(2px);
+	transform: translateX(2px);
+}
+
+/* =================================================================================================================================== */
