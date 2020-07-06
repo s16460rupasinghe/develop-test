@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+ 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>Registered User Login</title>
+ 	<link rel="stylesheet" type="text/css" href="registered_user_login.css">
+ </head>
+
+ <body class="page-background-image">
+
+ 	<!-- Header of the Page -->
+ 	<header>
+		<ul>
+			<a href="#" class="logo">NCD</a>
+			<li><h2 class="page-header-welcome-note">Welcome to NCD Digital Recording System!</h2></li>
+		</ul>
+	</header>
+
+	<!-- Content of the Page -->
+	<section>
+
+		<h2 class="login-instructions-note">Please Login Using NIC & email!</h2>
+		<br>
+
+		<!-- Login Form for New Users -->
+		<div class="registered-user-login-form-background">
+			<form action="#.php" method="POST">
+				<br><br><br>
+				<table align="center" class="registered-user-login-form-content">
+					<tr>
+ 						<td>NIC:</td>
+	 					<td><input type="text" placeholder="NIC" name="nic" required></td>
+ 					</tr>
+ 					<tr><td></td></tr>
+ 					<tr><td></td></tr>
+ 					<tr><td></td></tr>
+ 					<tr><td></td></tr>
+ 					<tr><td></td></tr>
+ 					<tr><td></td></tr>
+ 					<tr><td></td></tr>
+	 				<tr>
+	 					<td>Email:</td>
+	 					<td><input type="email" placeholder="Email" name="email" required></td>
+	 				</tr>
+				</table>
+				<br><br>
+				<a href="patients.html"><button class="registered-user-login-button" style="vertical-align:middle"><span>Login</span></button></a>
+				<br><br><br>
+			</form>
+		</div>
+		<br><br><br>
+		<a href="user_login_options.html"><button class="back-to-user-login-options-button" style="vertical-align:middle"><span>Back</span></button></a>
+	</section>
+
+ </body>
+ </html>
