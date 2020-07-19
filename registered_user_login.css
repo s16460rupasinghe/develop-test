@@ -1,0 +1,19 @@
+/* =================================================================================================================================== */
+
+/* ---------------------------------------------------- COMMON STYLES OF THE PAGE ---------------------------------------------------- */
+
+/* Styles of the Page Header */
+header
+{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	padding: 10px 10px 10px 10px;
+	display: fixed;
+	justify-content: space-between;
+	align-items: center;
+	background: #111;
+	opacity: 75%;
+	z-index: 1000;
+}
+
