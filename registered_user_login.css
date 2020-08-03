@@ -17,3 +17,34 @@ header
 	z-index: 1000;
 }
 
+header ul
+{
+	color: #fff;
+	position: relative;
+	display: flex;
+}
+
+header ul li
+{
+	color: #fff;
+	position: relative;
+	list-style: none;
+}
+
+header ul li a
+{
+	font-size: 20px;
+	position: relative;
+	padding: 10px 20px 10px 20px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+header ul li a.active,
+
+header ul li a:hover
+{
+	background: #205aff;
+}
