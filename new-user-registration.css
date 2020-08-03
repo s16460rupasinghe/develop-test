@@ -113,6 +113,17 @@ section
 	text-align: center;
 }
 
+.welcome-note {
+	font-size: 20px;
+	text-align: center;
+}
+
+.home-note {
+	font-size: 40px;
+	text-align: center;
+}
+
+
 
 
 
@@ -284,5 +295,141 @@ input:hover
 	transform: translateY(2px);
 	transform: translateX(2px);
 }
+
+.ButtonHome {
+	background-color:blue; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+
+
+  a {
+	color: white;
+	font-family: helvetica;
+	text-decoration: none;
+	padding-top: 20px;
+    padding-left: 50px;
+  }
+
+  .admin-login-box
+  {
+	background-color: white;
+	display: inline-block;
+  width: 150px;
+  height: 200px;
+  padding: 5px;
+  border: 1px solid blue;
+  margin-right: 100px;
+  
+
+  }
+
+  .user-login-box
+  {
+background-color: white;
+display: inline-block;
+  width: 150px;
+  height: 200px;
+  padding: 5px;
+  border: 1px solid blue;
+ margin-left: 50px;
+ 
+  
+  }
+  .logins{
+	  padding-left: 400px;
+	  padding-right: 400px;
+	  padding-top: 100px;
+  }
+
+  .adminIcon{
+	  width: 100px;
+	  height: 100px;
+	  margin-left: 20px;
+	  margin-top: 40px;
+  }
+  .userIcon{
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+.PatientsButton{
+	background-color:blue; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#PatientsDet{
+	width: 1000px;
+	margin-left: 150px;
+	height: 300px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgba(168, 183, 199, 0.9)
+
+}
+
+.buttonEdit
+{
+	width: 160px;
+	height: 40px;
+	background-color:white;
+	margin-left: 800px;
+	border: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	font-family: serif;
+	font-size: 25px;
+	font-style: bold;
+	font-weight: 100%;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.2);
+	opacity: 0.8;
+}
+
+
+.buttonSave
+{
+	width: 160px;
+	height: 40px;
+	background-color:white;
+	margin-left: 20px;
+	border: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	font-family: serif;
+	font-size: 25px;
+	font-style: bold;
+	font-weight: 100%;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.2);
+	opacity: 0.8;
+}
+
+
 
 /* =================================================================================================================================== */
