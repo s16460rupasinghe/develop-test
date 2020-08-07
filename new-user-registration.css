@@ -71,7 +71,7 @@ header
 /* Styles of Page Header Welcome Note */
 header
 .page-header-welcome-note {
-	font-size: 25px;
+	font-size: 27px;
 }
 
 
@@ -109,7 +109,7 @@ section
 /* Styles of Login Instruction Note */
 section
 .login-instructions-note {
-	font-size: 40px;
+	font-size: 42px;
 	text-align: center;
 }
 
@@ -328,7 +328,7 @@ input:hover
   padding: 5px;
   border: 1px solid blue;
   margin-right: 100px;
-  
+
 
   }
 
@@ -341,8 +341,8 @@ display: inline-block;
   padding: 5px;
   border: 1px solid blue;
  margin-left: 50px;
- 
-  
+
+
   }
   .logins{
 	  padding-left: 400px;
