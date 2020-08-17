@@ -57,7 +57,7 @@ header ul li a:hover
 header
 .logo {
 	color: #fff;
-	font-size: 50px;
+	font-size: 52px;
 	text-decoration: bold;
 	letter-spacing: 2px;
 	font-weight: 1000px;
@@ -71,7 +71,7 @@ header
 /* Styles of Page Header Welcome Note */
 header
 .page-header-welcome-note {
-	font-size: 27px;
+	font-size: 30px;
 }
 
 
@@ -157,7 +157,7 @@ input:hover
 
 /* Styles of New User Login Form Content */
 .new-user-login-form-content {
-	font-size: 24px;
+	font-size: 22px;
 	font-style: bold;
 }
 
